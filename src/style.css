@@ -1,0 +1,39 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 3rem;
+    width: 50rem;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 2rem;
+}
+
+button {
+    height: 3.5rem;
+    width: 5rem;
+}
+
+.weather-data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+pre {
+    font-size: x-large;
+}
